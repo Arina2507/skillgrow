@@ -1,0 +1,97 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  transition: background 0.3s ease;
+}
+
+/* Темная тема */
+.auth-container.dark {
+  background-color: #0d1117;
+  color: #fff;
+}
+
+.auth-form.dark {
+  background: #161b22;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.auth-form.dark .form-control {
+  background: #222;
+  border: 1px solid #6f42c1;
+  color: #fff;
+}
+
+/* Светлая тема */
+.auth-container.light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.auth-form.light {
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form.light .form-control {
+  background: #fff;
+  border: 1px solid #ccc;
+  color: #212529;
+}
+
+.auth-form {
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  color: #fff;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.error-message {
+  color: #ff4d4d;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #6f42c1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

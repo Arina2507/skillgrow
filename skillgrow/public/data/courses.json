@@ -1,0 +1,75 @@
+[
+  {
+    "title": "Content Writing",
+    "rating": "4.9",
+    "reviews": 31,
+    "hours": 8,
+    "image": "/images/content_writing.png",
+    "price": 50,
+    "discount": 10
+  },
+  {
+    "title": "UI / UX Design",
+    "rating": "4.9",
+    "reviews": 23,
+    "hours": 12,
+    "image": "/images/ui_ux_design.png",
+    "label": "New",
+    "price": 70,
+    "discount": 15
+  },
+  {
+    "title": "Coding and Development",
+    "rating": "5.0",
+    "reviews": 45,
+    "hours": 2,
+    "image": "/images/coding_and_development.png",
+    "price": 30,
+    "discount": 5
+  },
+  {
+    "title": "Photography",
+    "rating": "5.0",
+    "reviews": 221,
+    "hours": 12,
+    "image": "/images/photography.png",
+    "price": 100,
+    "discount": 20
+  },
+  {
+    "title": "Content Marketing 201",
+    "rating": "4.8",
+    "reviews": 150,
+    "hours": 10,
+    "image": "/images/content_marketing.png",
+    "price": 80,
+    "discount": 10
+  },
+  {
+    "title": "Learn a Language",
+    "rating": "4.7",
+    "reviews": 98,
+    "hours": "2 Weeks",
+    "image": "/images/language_learning.png",
+    "price": 60,
+    "discount": 15
+  },
+  {
+    "title": "Financial Planning",
+    "rating": "4.9",
+    "reviews": 178,
+    "hours": 8,
+    "image": "/images/financial_planning.png",
+    "price": 90,
+    "discount": 10
+  },
+  {
+    "title": "Health Wellness",
+    "rating": "5.0",
+    "reviews": 111,
+    "hours": 15,
+    "image": "/images/health_wellness.png",
+    "price": 75,
+    "discount": 0
+  }
+]

@@ -1,0 +1,171 @@
+[
+    {
+      "title": "Content Writing",
+      "rating": "4.9",
+      "reviews": 31,
+      "hours": 8,
+      "image": "/images/content_writing.png",
+      "description": "Learn how to write engaging content that drives traffic and conversions.",
+      "lessons": ["Introduction to Content Writing", "SEO Basics", "Creating Viral Content"],
+      "instructor": {
+        "name": "John Doe",
+        "avatar": "/images/instructor_john_doe.png",
+        "bio": "John is a professional writer with 10+ years of experience."
+      },
+      "price": 50,
+      "discount": 10,
+      "skills": ["SEO", "Copywriting", "Content Marketing"],
+      "reviewsList": [
+        { "name": "Alice", "text": "Amazing course! Highly recommend." },
+        { "name": "Bob", "text": "Great insights and practical tips." }
+      ]
+    },
+    {
+      "title": "UI / UX Design",
+      "rating": "4.9",
+      "reviews": 23,
+      "hours": 12,
+      "image": "/images/ui_ux_design.png",
+      "description": "Master the fundamentals of user interface and experience design.",
+      "lessons": ["Introduction to UI/UX", "Prototyping Basics", "Designing for Accessibility"],
+      "instructor": {
+        "name": "Jane Smith",
+        "avatar": "/images/instructor_jane_smith.png",
+        "bio": "Jane is an experienced UI/UX designer with a passion for creativity."
+      },
+      "price": 70,
+      "discount": 15,
+      "skills": ["Prototyping", "Accessibility Design", "User Research"],
+      "reviewsList": [
+        { "name": "Michael", "text": "Highly detailed and very practical course." },
+        { "name": "Sara", "text": "The instructor is amazing!" }
+      ]
+    },
+    {
+      "title": "Coding and Development",
+      "rating": "5.0",
+      "reviews": 45,
+      "hours": 2,
+      "image": "/images/coding_and_development.png",
+      "description": "Learn the basics of coding and software development in just 2 hours.",
+      "lessons": ["Introduction to Coding", "Basic Programming Concepts", "Project Development"],
+      "instructor": {
+        "name": "Robert Johnson",
+        "avatar": "/images/instructor_robert_johnson.png",
+        "bio": "Robert is a seasoned developer with 15 years of experience in software engineering."
+      },
+      "price": 30,
+      "discount": 5,
+      "skills": ["JavaScript", "Python", "Version Control"],
+      "reviewsList": [
+        { "name": "Anna", "text": "Great course for beginners!" },
+        { "name": "James", "text": "Covers all the basics." }
+      ]
+    },
+    {
+      "title": "Photography",
+      "rating": "5.0",
+      "reviews": 221,
+      "hours": 12,
+      "image": "/images/photography.png",
+      "description": "Take your photography skills to the next level with this comprehensive course.",
+      "lessons": ["Camera Basics", "Lighting Techniques", "Editing Photos"],
+      "instructor": {
+        "name": "Emily Davis",
+        "avatar": "/images/instructor_emily_davis.png",
+        "bio": "Emily is a professional photographer who has won multiple international awards."
+      },
+      "price": 100,
+      "discount": 20,
+      "skills": ["Photo Editing", "Lighting", "Creative Composition"],
+      "reviewsList": [
+        { "name": "Oliver", "text": "Learned so much about photography." },
+        { "name": "Emma", "text": "Amazing course with practical tips." }
+      ]
+    },
+    {
+      "title": "Content Marketing 201",
+      "rating": "4.8",
+      "reviews": 15,
+      "hours": 6,
+      "image": "/images/content_marketing_201.png",
+      "description": "Advanced strategies for content marketing professionals.",
+      "lessons": ["Advanced SEO Techniques", "Content Strategy Development", "Marketing Analytics"],
+      "instructor": {
+        "name": "Sophia Brown",
+        "avatar": "/images/instructor_sophia_brown.png",
+        "bio": "Sophia is a digital marketing expert specializing in content strategy."
+      },
+      "price": 80,
+      "discount": 10,
+      "skills": ["Content Strategy", "SEO Analysis", "Marketing Metrics"],
+      "reviewsList": [
+        { "name": "David", "text": "Very informative course for experienced marketers." },
+        { "name": "Grace", "text": "Helped me refine my marketing strategies." }
+      ]
+    },
+    {
+      "title": "Learn a Language",
+      "rating": "4.7",
+      "reviews": 52,
+      "hours": 10,
+      "image": "/images/learn_a_language.png",
+      "description": "Master a new language with structured learning modules.",
+      "lessons": ["Basic Vocabulary", "Grammar Fundamentals", "Conversational Practice"],
+      "instructor": {
+        "name": "Maria Garcia",
+        "avatar": "/images/instructor_maria_garcia.png",
+        "bio": "Maria is a language instructor with experience in teaching multiple languages."
+      },
+      "price": 60,
+      "discount": 15,
+      "skills": ["Language Proficiency", "Cultural Understanding", "Communication Skills"],
+      "reviewsList": [
+        { "name": "Luis", "text": "Excellent language course with practical exercises." },
+        { "name": "Sophie", "text": "Really helped me improve my language skills." }
+      ]
+    },
+    {
+      "title": "Financial Planning",
+      "rating": "4.9",
+      "reviews": 37,
+      "hours": 9,
+      "image": "/images/financial_planning.png",
+      "description": "Essential skills for managing personal and business finances.",
+      "lessons": ["Budgeting Strategies", "Investment Planning", "Retirement Savings"],
+      "instructor": {
+        "name": "Andrew Miller",
+        "avatar": "/images/instructor_andrew_miller.png",
+        "bio": "Andrew is a financial advisor with expertise in wealth management."
+      },
+      "price": 90,
+      "discount": 10,
+      "skills": ["Financial Analysis", "Investment Management", "Risk Assessment"],
+      "reviewsList": [
+        { "name": "Sophia", "text": "Very practical financial advice." },
+        { "name": "Daniel", "text": "Helped me understand investments better." }
+      ]
+    },
+    {
+      "title": "Health Wellness",
+      "rating": "4.8",
+      "reviews": 29,
+      "hours": 7,
+      "image": "/images/health_wellness.png",
+      "description": "Achieve better health and well-being with expert guidance.",
+      "lessons": ["Physical Fitness", "Nutrition Essentials", "Mental Health Strategies"],
+      "instructor": {
+        "name": "Jessica Taylor",
+        "avatar": "/images/instructor_jessica_taylor.png",
+        "bio": "Jessica is a wellness coach passionate about promoting healthy lifestyles."
+      },
+      "price": 75,
+      "discount": 0,
+      "skills": ["Wellness Practices", "Stress Management", "Holistic Health"],
+      "reviewsList": [
+        { "name": "Mark", "text": "Excellent course with practical advice." },
+        { "name": "Sophie", "text": "Really helped me improve my well-being." }
+      ]
+    }
+  ]
+  

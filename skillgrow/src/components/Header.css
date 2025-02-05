@@ -1,0 +1,149 @@
+.logo-img {
+  max-width: 150px;  /* Максимальная ширина логотипа */
+  height: auto;
+}
+
+.icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #333;
+  margin: 4px 0;
+}
+
+.navbar-brand img {
+  max-width: 30px;  
+  height: auto;     /* Пропорциональная высота */
+  display: block;   /* Убирает лишние отступы под изображением */
+  margin: 0 auto;   /* Центрирует изображение */
+  max-height: 24px; 
+}
+
+.navbar .navbar-expand-lg {
+  color: #f5f4f8;
+}
+
+[data-bs-theme="light"] {
+  --navbar-bg-color: #ffffff;
+  --navbar-text-color: #333333;
+}
+
+[data-bs-theme="dark"] {
+  --navbar-bg-color: #212529;
+  --navbar-text-color: #ffffff;
+}
+
+[data-bs-theme="auto"] {
+  --navbar-bg-color: #f8f9fa;
+  --navbar-text-color: #000;
+}
+
+.nav-link {
+  color: var(--navbar-text-color);
+}
+
+.nav-link:hover {
+  color: #f5f4f8;
+}
+
+.navbar-brand img {
+  display: block;
+}
+
+.navbar-brand img {
+  display: inline-block;
+}
+
+.bd-theme {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+.bd-theme:hover {
+  background-color: #f0f0f0;
+}
+
+.theme-icon-active {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Общий стиль для кнопки */
+.bd-theme {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--btn-border-color);
+  background-color: var(--btn-bg-color);
+  color: var(--btn-icon-color);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Светлая тема — серый кружок */
+[data-bs-theme="light"] .bd-theme {
+  --btn-bg-color: #e0e0e0; /* Светло-серый фон */
+  --btn-icon-color: #333;  /* Тёмно-серый цвет иконки */
+  --btn-border-color: #bbb; /* Граница чуть темнее фона */
+}
+
+/* Тёмная тема — темно-серый кружок */
+[data-bs-theme="dark"] .bd-theme {
+  --btn-bg-color: #4d4d4d; /* Тёмно-серый фон */
+  --btn-icon-color: #fff;   /* Белая иконка */
+  --btn-border-color: #666; /* Темная граница */
+}
+
+/* Hover эффект */
+.bd-theme:hover {
+  filter: brightness(1.2); /* Лёгкое осветление при наведении */
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #8a63ff;
+}  
+
+.dropdown-menu {
+  background-color: #161b22;
+}
+
+.dropdown-item {
+  color: #c9d1d9;
+}
+
+.dropdown-item:hover {
+  background-color: #21262d;
+  color: #ffffff;
+}
+
+.btn-light.rounded-circle {
+  width: 42px;  /* Размер кнопки (уменьшен) */
+  height: 42px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Убирает выходящие края */
+}
+
+.btn-light.rounded-circle img {
+  width: 40px;  /* Фото остаётся прежнего размера */
+  height: 40px;
+  object-fit: cover; /* Чтобы не сжималось */
+}
+
+
+
+

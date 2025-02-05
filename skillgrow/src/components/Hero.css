@@ -1,0 +1,13 @@
+.design-1 {
+ margin-top: 300px;
+ margin-left: 200px;
+}
+
+.design-2 {
+    margin-bottom: 300px;
+}
+
+.hero-image img {
+    width: 400px;
+    border-radius: 10px;
+  }

@@ -1,0 +1,86 @@
+.home {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background-color: #0f172a;
+    min-height: 100vh;
+    padding: 0 5%;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .nav-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dark-mode-btn, .buy-btn {
+    background-color: #7c3aed;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  
+  .text h1 {
+    font-size: 3.5em;
+    line-height: 1.2;
+  }
+  
+  .text p {
+    margin: 20px 0;
+    color: #cbd5e1;
+  }
+  
+  .text ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .text li {
+    margin-bottom: 10px;
+    color: #34d399;
+  }
+  
+  .explore-btn {
+    background-color: #ffffff;
+    color: #0f172a;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .hero-section {
+    margin-bottom: 50px; /* Отступ между секциями */
+  }
+  
+  .course-section {
+    padding-top: 30px;
+  }
+  
+
+  
+  
