@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Hero.css';  // Подключаем стили
+import './Hero.css';
 
 function Hero() {
   return (

@@ -23,12 +23,10 @@ const Courses = () => {
     }
   }, []);
 
-  // Удаление курса (из списка курсов, не из корзины)
   const handleDeleteCourse = (id) => {
     setCourses(courses.filter(course => course.id !== id));
   };
 
-  // Добавление нового курса
   const handleAddCourse = () => {
     if (!newCourse.title || !newCourse.hours || !newCourse.students) {
       alert("Please fill in all fields");
@@ -46,7 +44,6 @@ const Courses = () => {
     setNewCourse({ title: '', hours: '', students: '' });
   };
 
-  // Добавление курса в корзину студента
   const addToCart = (course) => {
     if (!user) {
       alert('You need to be signed in as a student to add courses.');
@@ -70,7 +67,6 @@ const Courses = () => {
     alert(`Added ${course.title} to your cart!`);
   };
 
-  // Удаление курса из корзины
   const removeFromCart = (id) => {
     const updatedCart = cart.filter(course => course.id !== id);
     setCart(updatedCart);

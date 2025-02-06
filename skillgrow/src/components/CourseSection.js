@@ -4,7 +4,6 @@ import CourseCard from './CourseCard';
 function CourseSection() {
   const [courses, setCourses] = useState([]);
 
-  // Загружаем данные из JSON
   useEffect(() => {
     fetch('/data/courses.json')
       .then((response) => {
@@ -15,9 +14,8 @@ function CourseSection() {
       })
       .then((data) => setCourses(data))
       .catch((error) => console.error('Error loading courses:', error));
-  }, []); // Пустой массив зависимостей для запуска только один раз
+  }, []); 
 
-  // Возвращаем JSX-разметку
   return (
     <section className="py-6">
       <div className="container">

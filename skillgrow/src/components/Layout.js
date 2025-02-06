@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaChartLine, FaBook, FaUsers, FaChalkboardTeacher, FaCog, FaSignOutAlt } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
-import Header from './Header'; // Импортируем хедер
+import Header from './Header';
 import './Dashboard.css';
 
 function Layout({ children }) {

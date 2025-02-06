@@ -1,5 +1,5 @@
 .logo-img {
-  max-width: 150px;  /* Максимальная ширина логотипа */
+  max-width: 150px;
   height: auto;
 }
 
@@ -13,9 +13,9 @@
 
 .navbar-brand img {
   max-width: 30px;  
-  height: auto;     /* Пропорциональная высота */
-  display: block;   /* Убирает лишние отступы под изображением */
-  margin: 0 auto;   /* Центрирует изображение */
+  height: auto;    
+  display: block;   
+  margin: 0 auto;
   max-height: 24px; 
 }
 
@@ -74,7 +74,6 @@
   color: #333;
 }
 
-/* Общий стиль для кнопки */
 .bd-theme {
   width: 40px;
   height: 40px;
@@ -86,25 +85,22 @@
   color: var(--btn-icon-color);
   transition: all 0.3s ease;
   cursor: pointer;
-}
+}¨
 
-/* Светлая тема — серый кружок */
 [data-bs-theme="light"] .bd-theme {
-  --btn-bg-color: #e0e0e0; /* Светло-серый фон */
-  --btn-icon-color: #333;  /* Тёмно-серый цвет иконки */
-  --btn-border-color: #bbb; /* Граница чуть темнее фона */
+  --btn-bg-color: #e0e0e0;
+  --btn-icon-color: #333;
+  --btn-border-color: #bbb; 
 }
 
-/* Тёмная тема — темно-серый кружок */
 [data-bs-theme="dark"] .bd-theme {
-  --btn-bg-color: #4d4d4d; /* Тёмно-серый фон */
-  --btn-icon-color: #fff;   /* Белая иконка */
-  --btn-border-color: #666; /* Темная граница */
+  --btn-bg-color: #4d4d4d;
+  --btn-icon-color: #fff;  
+  --btn-border-color: #666; 
 }
 
-/* Hover эффект */
 .bd-theme:hover {
-  filter: brightness(1.2); /* Лёгкое осветление при наведении */
+  filter: brightness(1.2);
 }
 
 .user-avatar {
@@ -129,19 +125,19 @@
 }
 
 .btn-light.rounded-circle {
-  width: 42px;  /* Размер кнопки (уменьшен) */
+  width: 42px;
   height: 42px;
   padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden; /* Убирает выходящие края */
+  overflow: hidden; 
 }
 
 .btn-light.rounded-circle img {
-  width: 40px;  /* Фото остаётся прежнего размера */
+  width: 40px;  
   height: 40px;
-  object-fit: cover; /* Чтобы не сжималось */
+  object-fit: cover;
 }
 
 

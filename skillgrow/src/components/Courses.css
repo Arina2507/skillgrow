@@ -12,7 +12,6 @@
   margin-bottom: 30px;
 }
 
-/* Форма добавления курса */
 .add-course-form {
   display: flex;
   gap: 20px;
@@ -45,7 +44,6 @@
   background: #218838;
 }
 
-/* Список курсов */
 .course-list {
   display: flex;
   flex-wrap: wrap;
@@ -80,7 +78,6 @@
   margin-bottom: 10px;
 }
 
-/* Удаление курса */
 .delete-btn {
   position: absolute;
   top: 15px;
@@ -123,7 +120,6 @@
   border-radius: 10px;
 }
 
-/* Кнопка "Add to Cart" */
 .btn-add-cart {
   display: block;
   width: 100%;

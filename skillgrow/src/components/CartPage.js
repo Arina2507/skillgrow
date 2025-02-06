@@ -37,8 +37,7 @@ function CartPage() {
   const buyCourse = (id) => {
     const course = cart.find(course => course.id === id);
     if (course) {
-      alert(`Redirecting to payment for "${course.title}"...`); // Placeholder action for demonstration
-      // Implement your logic for redirecting to payment page or handling payment here
+      alert(`Redirecting to payment for "${course.title}"...`);
     }
   };
 

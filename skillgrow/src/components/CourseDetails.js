@@ -11,7 +11,6 @@ const CourseDetails = () => {
   const [isInCart, setIsInCart] = useState(false);
 
   useEffect(() => {
-    // Load course data
     fetch('/data/course_info.json')
       .then(response => response.json())
       .then(data => {
@@ -20,14 +19,12 @@ const CourseDetails = () => {
       })
       .catch(error => console.error('Error loading course:', error));
 
-    // Load user data
     const storedUser = JSON.parse(localStorage.getItem('user'));
     if (storedUser) {
       setUser(storedUser);
       setCart(storedUser.cart || []);
     }
 
-    // Watch for storage changes
     const handleStorageChange = () => {
       const updatedUser = JSON.parse(localStorage.getItem('user'));
       if (updatedUser) {

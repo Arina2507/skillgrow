@@ -17,10 +17,9 @@ function Dashboard() {
   });
 
   useEffect(() => {
-    // Проверяем пользователя в localStorage
     const storedUser = JSON.parse(localStorage.getItem('user'));
     if (storedUser && storedUser.role === 'admin') {
-      localStorage.setItem('theme', 'dark'); // Устанавливаем тёмную тему
+      localStorage.setItem('theme', 'dark');
       document.body.setAttribute('data-bs-theme', 'dark');
     }
   }, []);

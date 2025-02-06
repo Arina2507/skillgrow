@@ -6,7 +6,6 @@
   transition: background 0.3s ease;
 }
 
-/* Темная тема */
 .auth-container.dark {
   background-color: #0d1117;
   color: #fff;
@@ -23,7 +22,6 @@
   color: #fff;
 }
 
-/* Светлая тема */
 .auth-container.light {
   background-color: #f8f9fa;
   color: #212529;

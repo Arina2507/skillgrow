@@ -1,4 +1,3 @@
-/* Общие стили */
 .users-container {
     padding: 40px;
     background-color: #1a1a2e;
@@ -39,7 +38,6 @@
     background-color: #53319e;
 }
 
-/* Форма добавления пользователя */
 .add-user-form {
     display: flex;
     gap: 20px;
@@ -72,7 +70,6 @@
     background: #218838;
 }
 
-/* Карточки пользователей */
 .user-list {
     display: flex;
     flex-wrap: wrap;
@@ -95,7 +92,6 @@
     transform: translateY(-5px);
 }
 
-/* Аватарка пользователя */
 .user-card img {
     border-radius: 50%;
     width: 100px;
@@ -104,7 +100,6 @@
     margin-bottom: 15px;
 }
 
-/* Менее заметный крестик */
 .delete-btn {
     position: absolute;
     top: 15px;
@@ -133,7 +128,6 @@
     margin-bottom: 10px;
 }
 
-/* Кнопка изменения данных */
 .edit-btn {
     background: #ffc107;
     border: none;
@@ -150,7 +144,6 @@
     background: #e0a800;
 }
 
-/* Форма редактирования */
 .edit-user-form {
     display: flex;
     flex-direction: column;
@@ -183,7 +176,6 @@
     background: #218838;
 }
 
-/* Адаптивные стили */
 @media (max-width: 1200px) {
     .user-card {
         width: calc(33.33% - 30px);
